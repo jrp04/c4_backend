@@ -1,0 +1,4 @@
+{
+    "PORT": 9000,
+    "CONNECTION_URL":"mongodb+srv://jrp04:79aheBPHxELIQiaX@misiontic.ichwa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" 
+}
