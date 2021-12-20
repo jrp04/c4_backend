@@ -33,7 +33,6 @@ const connectionWatchers_v2 = () => {
     process.on('exit', closeMongoDB_v2);
     process.on('SIGINT', closeMongoDB_v2);
     process.on('SIGTERM', closeMongoDB_v2);
-    process.on('SIGKILL', closeMongoDB_v2);
     process.on('uncaughtException', closeMongoDB_v2);
 }
 
